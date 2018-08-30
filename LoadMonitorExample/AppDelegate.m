@@ -15,9 +15,9 @@
 
 @implementation AppDelegate
 
-//+ (void)load {
-//    NSLog(@"%s", __FUNCTION__);
-//}
++ (void)load {
+    NSLog(@"%s", __FUNCTION__);
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

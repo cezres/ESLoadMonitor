@@ -12,6 +12,7 @@
 
 + (void)load {
     NSLog(@"%s", __FUNCTION__);
+    [NSThread sleepForTimeInterval:0.02];
 }
 
 

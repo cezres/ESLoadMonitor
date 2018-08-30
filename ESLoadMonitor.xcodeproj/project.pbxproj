@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4508F2BA4C0DDCE666A7C847 /* libPods-LoadMonitorExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5947AFA883AE43BD24545A /* libPods-LoadMonitorExample.a */; };
 		6EA6AA512133E046002D6E8E /* ESLoadMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA6AA4F2133E046002D6E8E /* ESLoadMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EA6AA5F2133E063002D6E8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6AA5E2133E063002D6E8E /* AppDelegate.m */; };
 		6EA6AA622133E063002D6E8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6AA612133E063002D6E8E /* ViewController.m */; };
@@ -17,12 +18,24 @@
 		6EA6AA772133E174002D6E8E /* ESLoadMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6AA762133E174002D6E8E /* ESLoadMonitor.m */; };
 		6EA6AA7A2133EBE7002D6E8E /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6AA792133EBE7002D6E8E /* UIView+Layout.m */; };
 		6EA6AA7D2133F100002D6E8E /* ViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA6AA7C2133F100002D6E8E /* ViewController+Extension.m */; };
-		6EA6AA822133FB24002D6E8E /* ESLoadMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA6AA4C2133E046002D6E8E /* ESLoadMonitor.framework */; };
-		6EA6AA832133FB24002D6E8E /* ESLoadMonitor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA6AA4C2133E046002D6E8E /* ESLoadMonitor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EC7D9E0213693F100A90B6D /* TestLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC7D9DE213693F100A90B6D /* TestLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC7D9E3213693F100A90B6D /* TestLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC7D9DC213693F100A90B6D /* TestLib.framework */; };
+		6EC7D9E4213693F100A90B6D /* TestLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC7D9DC213693F100A90B6D /* TestLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EC7D9E92136940200A90B6D /* TestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7D9E82136940200A90B6D /* TestLib.m */; };
+		6EC7D9EA2136945100A90B6D /* ESLoadMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA6AA4C2133E046002D6E8E /* ESLoadMonitor.framework */; };
+		6EC7D9EB2136945100A90B6D /* ESLoadMonitor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA6AA4C2133E046002D6E8E /* ESLoadMonitor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		795708E0FF0B485F86E9FEB4 /* libPods-ESLoadMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86EAC3FC9269780E77CE3E61 /* libPods-ESLoadMonitor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6EA6AA842133FB24002D6E8E /* PBXContainerItemProxy */ = {
+		6EC7D9E1213693F100A90B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EA6AA432133E046002D6E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC7D9DB213693F100A90B6D;
+			remoteInfo = TestLib;
+		};
+		6EC7D9EC2136945100A90B6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EA6AA432133E046002D6E8E /* Project object */;
 			proxyType = 1;
@@ -38,7 +51,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6EA6AA832133FB24002D6E8E /* ESLoadMonitor.framework in Embed Frameworks */,
+				6EC7D9E4213693F100A90B6D /* TestLib.framework in Embed Frameworks */,
+				6EC7D9EB2136945100A90B6D /* ESLoadMonitor.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +60,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0DD43F6248FF486FB2B173FC /* Pods-LoadMonitorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMonitorExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMonitorExample/Pods-LoadMonitorExample.debug.xcconfig"; sourceTree = "<group>"; };
 		6EA6AA4C2133E046002D6E8E /* ESLoadMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ESLoadMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA6AA4F2133E046002D6E8E /* ESLoadMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESLoadMonitor.h; sourceTree = "<group>"; };
 		6EA6AA502133E046002D6E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +79,15 @@
 		6EA6AA792133EBE7002D6E8E /* UIView+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
 		6EA6AA7B2133F100002D6E8E /* ViewController+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Extension.h"; sourceTree = "<group>"; };
 		6EA6AA7C2133F100002D6E8E /* ViewController+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Extension.m"; sourceTree = "<group>"; };
+		6EC7D9DC213693F100A90B6D /* TestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC7D9DE213693F100A90B6D /* TestLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
+		6EC7D9DF213693F100A90B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC7D9E82136940200A90B6D /* TestLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLib.m; sourceTree = "<group>"; };
+		7E5947AFA883AE43BD24545A /* libPods-LoadMonitorExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoadMonitorExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EAC3FC9269780E77CE3E61 /* libPods-ESLoadMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESLoadMonitor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F02D00DF243D00F2D49DB0 /* Pods-LoadMonitorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadMonitorExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoadMonitorExample/Pods-LoadMonitorExample.release.xcconfig"; sourceTree = "<group>"; };
+		D0F54030F6FD6AEACE3787C0 /* Pods-ESLoadMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESLoadMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESLoadMonitor/Pods-ESLoadMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		F47C5EF55960D6FCD42A43D1 /* Pods-ESLoadMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESLoadMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESLoadMonitor/Pods-ESLoadMonitor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795708E0FF0B485F86E9FEB4 /* libPods-ESLoadMonitor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,20 +103,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA6AA822133FB24002D6E8E /* ESLoadMonitor.framework in Frameworks */,
+				6EC7D9EA2136945100A90B6D /* ESLoadMonitor.framework in Frameworks */,
+				6EC7D9E3213693F100A90B6D /* TestLib.framework in Frameworks */,
+				4508F2BA4C0DDCE666A7C847 /* libPods-LoadMonitorExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC7D9D8213693F100A90B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		305FB7E8BB87B63E54F3C88F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0F54030F6FD6AEACE3787C0 /* Pods-ESLoadMonitor.debug.xcconfig */,
+				F47C5EF55960D6FCD42A43D1 /* Pods-ESLoadMonitor.release.xcconfig */,
+				0DD43F6248FF486FB2B173FC /* Pods-LoadMonitorExample.debug.xcconfig */,
+				A4F02D00DF243D00F2D49DB0 /* Pods-LoadMonitorExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6EA6AA422133E046002D6E8E = {
 			isa = PBXGroup;
 			children = (
 				6EA6AA4E2133E046002D6E8E /* ESLoadMonitor */,
 				6EA6AA5C2133E063002D6E8E /* LoadMonitorExample */,
+				6EC7D9DD213693F100A90B6D /* TestLib */,
 				6EA6AA4D2133E046002D6E8E /* Products */,
 				6EA6AA802133F9D6002D6E8E /* Frameworks */,
+				305FB7E8BB87B63E54F3C88F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +147,7 @@
 			children = (
 				6EA6AA4C2133E046002D6E8E /* ESLoadMonitor.framework */,
 				6EA6AA5B2133E063002D6E8E /* LoadMonitorExample.app */,
+				6EC7D9DC213693F100A90B6D /* TestLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,8 +185,20 @@
 		6EA6AA802133F9D6002D6E8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86EAC3FC9269780E77CE3E61 /* libPods-ESLoadMonitor.a */,
+				7E5947AFA883AE43BD24545A /* libPods-LoadMonitorExample.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EC7D9DD213693F100A90B6D /* TestLib */ = {
+			isa = PBXGroup;
+			children = (
+				6EC7D9DE213693F100A90B6D /* TestLib.h */,
+				6EC7D9E82136940200A90B6D /* TestLib.m */,
+				6EC7D9DF213693F100A90B6D /* Info.plist */,
+			);
+			path = TestLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +212,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EC7D9D9213693F100A90B6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC7D9E0213693F100A90B6D /* TestLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -159,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EA6AA542133E046002D6E8E /* Build configuration list for PBXNativeTarget "ESLoadMonitor" */;
 			buildPhases = (
+				7C19BAE951B8801EA14A016C /* [CP] Check Pods Manifest.lock */,
 				6EA6AA472133E046002D6E8E /* Sources */,
 				6EA6AA482133E046002D6E8E /* Frameworks */,
 				6EA6AA492133E046002D6E8E /* Headers */,
@@ -177,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EA6AA6E2133E065002D6E8E /* Build configuration list for PBXNativeTarget "LoadMonitorExample" */;
 			buildPhases = (
+				3ACD82C9AECF2A52B547D885 /* [CP] Check Pods Manifest.lock */,
 				6EA6AA572133E063002D6E8E /* Sources */,
 				6EA6AA582133E063002D6E8E /* Frameworks */,
 				6EA6AA592133E063002D6E8E /* Resources */,
@@ -185,12 +255,31 @@
 			buildRules = (
 			);
 			dependencies = (
-				6EA6AA852133FB24002D6E8E /* PBXTargetDependency */,
+				6EC7D9E2213693F100A90B6D /* PBXTargetDependency */,
+				6EC7D9ED2136945100A90B6D /* PBXTargetDependency */,
 			);
 			name = LoadMonitorExample;
 			productName = LoadMonitorExample;
 			productReference = 6EA6AA5B2133E063002D6E8E /* LoadMonitorExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		6EC7D9DB213693F100A90B6D /* TestLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC7D9E7213693F100A90B6D /* Build configuration list for PBXNativeTarget "TestLib" */;
+			buildPhases = (
+				6EC7D9D7213693F100A90B6D /* Sources */,
+				6EC7D9D8213693F100A90B6D /* Frameworks */,
+				6EC7D9D9213693F100A90B6D /* Headers */,
+				6EC7D9DA213693F100A90B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLib;
+			productName = TestLib;
+			productReference = 6EC7D9DC213693F100A90B6D /* TestLib.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,6 +294,9 @@
 						CreatedOnToolsVersion = 9.4.1;
 					};
 					6EA6AA5A2133E063002D6E8E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6EC7D9DB213693F100A90B6D = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -224,6 +316,7 @@
 			targets = (
 				6EA6AA4B2133E046002D6E8E /* ESLoadMonitor */,
 				6EA6AA5A2133E063002D6E8E /* LoadMonitorExample */,
+				6EC7D9DB213693F100A90B6D /* TestLib */,
 			);
 		};
 /* End PBXProject section */
@@ -246,7 +339,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EC7D9DA213693F100A90B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ACD82C9AECF2A52B547D885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoadMonitorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C19BAE951B8801EA14A016C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESLoadMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6EA6AA472133E046002D6E8E /* Sources */ = {
@@ -269,13 +408,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6EC7D9D7213693F100A90B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC7D9E92136940200A90B6D /* TestLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6EA6AA852133FB24002D6E8E /* PBXTargetDependency */ = {
+		6EC7D9E2213693F100A90B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC7D9DB213693F100A90B6D /* TestLib */;
+			targetProxy = 6EC7D9E1213693F100A90B6D /* PBXContainerItemProxy */;
+		};
+		6EC7D9ED2136945100A90B6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6EA6AA4B2133E046002D6E8E /* ESLoadMonitor */;
-			targetProxy = 6EA6AA842133FB24002D6E8E /* PBXContainerItemProxy */;
+			targetProxy = 6EC7D9EC2136945100A90B6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +569,7 @@
 		};
 		6EA6AA552133E046002D6E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F54030F6FD6AEACE3787C0 /* Pods-ESLoadMonitor.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +596,7 @@
 		};
 		6EA6AA562133E046002D6E8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47C5EF55960D6FCD42A43D1 /* Pods-ESLoadMonitor.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +623,7 @@
 		};
 		6EA6AA6F2133E065002D6E8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD43F6248FF486FB2B173FC /* Pods-LoadMonitorExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +642,7 @@
 		};
 		6EA6AA702133E065002D6E8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F02D00DF243D00F2D49DB0 /* Pods-LoadMonitorExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +655,54 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cezres.LoadMonitorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6EC7D9E5213693F100A90B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E8Y69BKJ78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cezres.TestLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EC7D9E6213693F100A90B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = E8Y69BKJ78;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TestLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cezres.TestLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -529,6 +733,15 @@
 			buildConfigurations = (
 				6EA6AA6F2133E065002D6E8E /* Debug */,
 				6EA6AA702133E065002D6E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC7D9E7213693F100A90B6D /* Build configuration list for PBXNativeTarget "TestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC7D9E5213693F100A90B6D /* Debug */,
+				6EC7D9E6213693F100A90B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
